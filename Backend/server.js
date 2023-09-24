@@ -8,8 +8,8 @@ const port = process.env.PORT
 
 app.use(cors(
     {
-        "origin":["https://der-die-das-german-web-app.vercel.app/"],
-        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        "origin": 'https://die-der-das-german-web-app-t4n8.vercel.app',
+        "methods": 'GET,HEAD,PUT,PATCH,POST,DELETE',
         "credentials": true
       }
       
