@@ -23,7 +23,7 @@ const Search = ({ words, getWords }) => {
       {/* Display the fetched words */}
       <ul>
         {words.map((word) => (
-          <li key={word.id}>{word.word},{word.gender}</li>
+          <li key={word.id}>{word.word}</li>
         ))}
       </ul>
     </div>
