@@ -21,11 +21,11 @@ const Search = ({ words, getWords }) => {
       />
 
       {/* Display the fetched words */}
-      {/* <ul>
+      <ul>
         {words.map((word) => (
           <li key={word.id}>{word.word}</li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 };
