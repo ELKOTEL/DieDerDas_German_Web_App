@@ -4,7 +4,7 @@ import axios from 'axios';
 // Action to add a new word
 export const addWord = (newword) => (dispatch) => {
   axios
-    .post('http://localhost:5000/words/newword', newword)
+    .post('die-der-das-german-web-app.vercel.app/words/newword', newword)
     .then(({ data }) => {
       dispatch({
         type: ADD_WORD,
@@ -21,7 +21,7 @@ export const addWord = (newword) => (dispatch) => {
 // Action to get all words
 export const getWords = () => (dispatch) => {
   axios
-    .get('http://localhost:5000/words/')
+    .get('die-der-das-german-web-app.vercel.app/words/')
     .then(({ data }) => {
       dispatch({
         type: GET_WORDS,
